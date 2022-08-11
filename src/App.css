@@ -5,7 +5,11 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
+
 }
+  .right{
+    float:right !important;
+  }
 .wrapper{
   background: #171c24;
   position: fixed;
