@@ -7,11 +7,11 @@ const ProductComponent = () => {
   const renderList = products?.map((product) => {
     const { id, title, image, price, category } = product;
     return (
-      <div className="col-sm m-2 mt-3 mb-3" key={id}>
+      <div className="col-sm m-2 mt-3 mb-3" key={id} style={{ width: "17em" }}>
         <Link to={`/product/${id}`}>
           <div className="ui link cards">
             <div className="card">
-              <div className="image" style={{height:400}}>
+              <div className="image" style={{ height: 400 }}>
                 <img src={image} alt={title} />
               </div>
               <div className="content">
@@ -23,8 +23,6 @@ const ProductComponent = () => {
           </div>
         </Link>
       </div>
-
-      
     );
   });
 

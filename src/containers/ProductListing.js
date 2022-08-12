@@ -22,9 +22,8 @@ const ProductListing = () => {
   //   console.log("Products:", products);
   return (
     <div className="container">
-    <div className="row">
-    
-      <ProductComponent />
+      <div className="row">
+        <ProductComponent />
       </div>
     </div>
   );
