@@ -15,10 +15,12 @@ const ProductDetail = () => {
   // console.log(product);
 
   const fetchProductDetail = async () => {
-    const response = await axios
-      .get(`https://fakestoreapi.com/products/${productId}`)
-      .catch((err) => console.log("Err", err));
-
+    // const response = await axios
+    //   .get(`https://fakestoreapi.com/products/${productId}`)
+    //   .catch((err) => console.log("Err", err));
+    const response = await fetch(
+      `https://fakestoreapi.com/products/${productId}`
+    );
     dispatch(selectedProduct(response.data));
   };
 

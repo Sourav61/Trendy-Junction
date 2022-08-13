@@ -8,9 +8,11 @@ const ProductListing = () => {
   const products = useSelector((state) => state);
   const dispatch = useDispatch();
   const fetchProducts = async () => {
-    const response = await axios
-      .get("http://fakestoreapi.com/products")
-      .catch((err) => console.log("Err", err));
+    // const response = await axios
+    //   .get("https://fakestoreapi.com/products")
+    //   .catch((err) => console.log("Err", err));
+
+    const response = await fetch("https://fakestoreapi.com/products");
 
     dispatch(setProduct(response.data));
   };
