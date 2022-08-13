@@ -12,9 +12,11 @@ const ProductListing = () => {
     //   .get("https://fakestoreapi.com/products")
     //   .catch((err) => console.log("Err", err));
 
-    const response = await fetch("https://fakestoreapi.com/products");
+    const data = await fetch("https://fakestoreapi.com/products");
 
-    dispatch(setProduct(response.data));
+    const response = await data.json();
+    console.log("check", data, response);
+    dispatch(setProduct(response));
   };
 
   useEffect(() => {

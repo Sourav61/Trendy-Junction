@@ -18,10 +18,10 @@ const ProductDetail = () => {
     // const response = await axios
     //   .get(`https://fakestoreapi.com/products/${productId}`)
     //   .catch((err) => console.log("Err", err));
-    const response = await fetch(
-      `https://fakestoreapi.com/products/${productId}`
-    );
-    dispatch(selectedProduct(response.data));
+    const data = await fetch(`https://fakestoreapi.com/products/${productId}`);
+    const response = await data.json();
+    console.log("first", response);
+    dispatch(selectedProduct(response));
   };
 
   useEffect(() => {
