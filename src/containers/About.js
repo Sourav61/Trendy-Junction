@@ -40,7 +40,7 @@ const About = () => {
               </li>
               <li>
                 <SocialIcon
-                  url="https://twitter.com/SouravPahwa9"
+                  url="https://www.instagram.com/souravpahwa2861/"
                   fgColor="white"
                   style={{ margin: 5 }}
                 />
@@ -72,21 +72,21 @@ const About = () => {
             <ul class="social">
               <li>
                 <SocialIcon
-                  url="https://www.linkedin.com/in/sourav-pahwa-93b4041b6/"
+                  url="https://www.linkedin.com/in/vidhi-rajvanshi-a2494b22a/"
                   fgColor="white"
                   style={{ margin: 5 }}
                 />
               </li>
               <li>
                 <SocialIcon
-                  url="https://twitter.com/SouravPahwa9"
+                  url="https://www.instagram.com/vidhirajvanshi/"
                   fgColor="white"
                   style={{ margin: 5 }}
                 />
               </li>
               <li>
                 <SocialIcon
-                  url="mailto:sourav61pahwa@gmail.com"
+                  url="mailto:vidhirajvanshi@gmail.com"
                   bgColor="#dd4b39"
                   fgColor="white"
                   style={{ margin: 5 }}
@@ -102,7 +102,7 @@ const About = () => {
                 class="img-fluid"
                 src={require("../images/samily.jpg")}
                 alt="..."
-                style={{ height: "12em" }}
+                style={{ height: "13em", width: "13em" }}
               />
             </div>
             <div class="box-desc">
@@ -110,23 +110,23 @@ const About = () => {
               <p>Designer</p>
             </div>
             <ul class="social">
-              <li>
+              {/* <li>
                 <SocialIcon
                   url="https://www.linkedin.com/in/sourav-pahwa-93b4041b6/"
                   fgColor="white"
                   style={{ margin: 5 }}
                 />
-              </li>
+              </li> */}
               <li>
                 <SocialIcon
-                  url="https://twitter.com/SouravPahwa9"
+                  url="https://www.instagram.com/samilysaini/"
                   fgColor="white"
                   style={{ margin: 5 }}
                 />
               </li>
               <li>
                 <SocialIcon
-                  url="mailto:sourav61pahwa@gmail.com"
+                  url="mailto:samilysaini07@gmail.com"
                   bgColor="#dd4b39"
                   fgColor="white"
                   style={{ margin: 5 }}
@@ -151,14 +151,14 @@ const About = () => {
             <ul class="social">
               <li>
                 <SocialIcon
-                  url="https://www.linkedin.com/in/sourav-pahwa-93b4041b6/"
+                  url="https://www.linkedin.com/in/tanvi-janday-1b3b26207/"
                   fgColor="white"
                   style={{ margin: 5 }}
                 />
               </li>
               <li>
                 <SocialIcon
-                  url="https://twitter.com/SouravPahwa9"
+                  url="https://www.instagram.com/tanvi.6286/"
                   fgColor="white"
                   style={{ margin: 5 }}
                 />
@@ -188,23 +188,23 @@ const About = () => {
               <p>Content Writer</p>
             </div>
             <ul class="social">
-              <li>
+              {/* <li>
                 <SocialIcon
                   url="https://www.linkedin.com/in/sourav-pahwa-93b4041b6/"
                   fgColor="white"
                   style={{ margin: 5 }}
                 />
-              </li>
+              </li> */}
               <li>
                 <SocialIcon
-                  url="https://twitter.com/SouravPahwa9"
+                  url="https://www.instagram.com/_sunny_bansal_/"
                   fgColor="white"
                   style={{ margin: 5 }}
                 />
               </li>
               <li>
                 <SocialIcon
-                  url="mailto:sourav61pahwa@gmail.com"
+                  url="mailto:sb765157@gmail.com"
                   bgColor="#dd4b39"
                   fgColor="white"
                   style={{ margin: 5 }}
