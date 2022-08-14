@@ -462,3 +462,9 @@ ul.social li a {
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .subContainer{
+    flex-wrap: wrap!important;
+  }
+}

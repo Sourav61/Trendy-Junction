@@ -16,7 +16,7 @@ const About = () => {
           Meet Our Team
         </h1>
       </div>
-      <div class="row vh-77" style={{ flexWrap: "nowrap" }}>
+      <div class="row vh-77 subContainer" style={{ flexWrap: "nowrap" }}>
         <div class="col-sm-6 col-lg-3 my-auto" style={{ width: "19em" }}>
           <div class="box shadow-sm p-4">
             <div class="image-wrapper mb-3">
