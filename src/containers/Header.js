@@ -43,6 +43,15 @@ const Header = () => {
                 Contact
               </a>
             </li>
+            <li className="nav-item ">
+              <a
+                className="nav-link active text-white "
+                aria-current="page"
+                href="/about"
+              >
+                About
+              </a>
+            </li>
           </ul>
           {/* <form className="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
