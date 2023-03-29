@@ -5,6 +5,7 @@ import ProductListing from "./containers/ProductListing";
 import ProductDetail from "./containers/ProductDetail";
 import Contact from "./containers/Contact";
 import About from "./containers/About";
+import PageNotFound from "./containers/PageNotFound";
 
 function App() {
   return (
@@ -12,11 +13,11 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<ProductListing />} />
+          <Route exact path="/" element={<ProductListing />} />
           <Route path="/product/:productId" element={<ProductDetail />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
-          <Route>404 Not Found!</Route>
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Router>
     </div>
